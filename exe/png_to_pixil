@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "png_to_pixil"
+
+path = ARGV[0]
+
+if path.nil?
+  $stderr.puts("Usage: png_to_pixil input_file.png")
+  exit(1)
+end
+
+File.open(path) do |f|
+  puts PngToPixil::Converter.new(f).to_pixil.to_json
+end
