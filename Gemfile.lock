@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    png_to_pixil (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.1.3)
+    json (2.3.0)
+    ostruct (0.1.0)
+    rake (12.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  json
+  ostruct
+  png_to_pixil!
+  rake (~> 12.0)
+
+BUNDLED WITH
+   2.1.4
