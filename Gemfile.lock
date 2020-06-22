@@ -2,6 +2,9 @@ PATH
   remote: .
   specs:
     png_to_pixil (0.1.0)
+      fastimage (~> 2.1)
+      json (~> 2.3)
+      ostruct (~> 0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -15,9 +18,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fastimage
-  json
-  ostruct
   png_to_pixil!
   rake (~> 12.0)
 

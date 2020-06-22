@@ -18,4 +18,8 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.add_runtime_dependency "json", "~> 2.3"
+  spec.add_runtime_dependency "ostruct", "~> 0.1"
+  spec.add_runtime_dependency "fastimage", "~> 2.1"
 end
